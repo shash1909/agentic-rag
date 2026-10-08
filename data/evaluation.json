@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "What was the company's total revenue in 2024?",
+    "type": "SIMPLE",
+    "ground_truth": "The company's total revenue in 2024 was $120 million, representing a 15% increase year-over-year.",
+    "relevant_pages": [1],
+    "relevant_keywords": ["120 million", "15%", "revenue"]
+  },
+  {
+    "id": 2,
+    "question": "Who serves as the Chief Executive Officer?",
+    "type": "SIMPLE",
+    "ground_truth": "Elena Rostova has served as Chief Executive Officer since January 2022.",
+    "relevant_pages": [1],
+    "relevant_keywords": ["Elena Rostova", "Chief Executive Officer", "CEO"]
+  },
+  {
+    "id": 3,
+    "question": "What was the operating margin in 2024?",
+    "type": "SIMPLE",
+    "ground_truth": "The operating margin reached 22% in 2024, improving from 18% in the previous year.",
+    "relevant_pages": [1],
+    "relevant_keywords": ["operating margin", "22%", "18%"]
+  },
+  {
+    "id": 4,
+    "question": "How many full-time employees does the company employ?",
+    "type": "SIMPLE",
+    "ground_truth": "As of December 31, 2024, the company employed 1,450 full-time team members across 8 global offices.",
+    "relevant_pages": [2],
+    "relevant_keywords": ["1,450", "full-time", "employees", "8 global offices"]
+  },
+  {
+    "id": 5,
+    "question": "What was the R&D expenditure in fiscal year 2024?",
+    "type": "SIMPLE",
+    "ground_truth": "Research and development expenditure was $28 million, accounting for 23.3% of total revenue.",
+    "relevant_pages": [2],
+    "relevant_keywords": ["28 million", "Research and development", "R&D"]
+  },
+  {
+    "id": 6,
+    "question": "Which cloud providers are used for enterprise infrastructure?",
+    "type": "SIMPLE",
+    "ground_truth": "The primary cloud infrastructure is hosted on Google Cloud Platform with secondary disaster recovery on AWS.",
+    "relevant_pages": [3],
+    "relevant_keywords": ["Google Cloud Platform", "AWS", "infrastructure"]
+  },
+  {
+    "id": 7,
+    "question": "What is the company's carbon neutrality target year?",
+    "type": "SIMPLE",
+    "ground_truth": "The company committed to achieving net-zero carbon operations by 2030.",
+    "relevant_pages": [3],
+    "relevant_keywords": ["net-zero", "carbon", "2030"]
+  },
+  {
+    "id": 8,
+    "question": "Why did North American revenue increase and how did European supply chain delays affect regional profitability?",
+    "type": "COMPLEX",
+    "ground_truth": "North American revenue surged 28% driven by enterprise software adoptions, while European profitability contracted by 6% due to port logistics congestion and supplier delays.",
+    "relevant_pages": [1, 2],
+    "relevant_keywords": ["North American", "28%", "European", "port logistics", "supplier delays"]
+  },
+  {
+    "id": 9,
+    "question": "Compare the growth rate of the Cloud Software division with the Hardware division and explain the main divergence.",
+    "type": "COMPLEX",
+    "ground_truth": "Cloud Software grew at 34% due to SaaS subscriptions, whereas Hardware declined by 4% due to semiconductor shortages and component inflation.",
+    "relevant_pages": [2, 3],
+    "relevant_keywords": ["Cloud Software", "34%", "Hardware", "semiconductor shortages"]
+  },
+  {
+    "id": 10,
+    "question": "How did the 2023 restructuring plan influence 2024 operating margins and cash flow?",
+    "type": "COMPLEX",
+    "ground_truth": "The 2023 consolidation reduced real estate overhead by $14M, which expanded 2024 operating margin to 22% and increased free cash flow to $35 million.",
+    "relevant_pages": [1, 3],
+    "relevant_keywords": ["restructuring", "real estate", "operating margin", "free cash flow", "35 million"]
+  },
+  {
+    "id": 11,
+    "question": "What were the primary cybersecurity investments and how do they mitigate regulatory compliance risks?",
+    "type": "COMPLEX",
+    "ground_truth": "The company invested $6M in Zero-Trust architecture and SOC 2 Type II audits, directly satisfying EU GDPR and HIPAA data handling compliance mandates.",
+    "relevant_pages": [3, 4],
+    "relevant_keywords": ["Zero-Trust", "SOC 2", "GDPR", "compliance"]
+  },
+  {
+    "id": 12,
+    "question": "Analyze how customer retention changed after the AI support rollout and what cost savings resulted.",
+    "type": "COMPLEX",
+    "ground_truth": "Net revenue retention rose from 104% to 118% following the AI automation rollout, which reduced customer support ticket resolution costs by 40%.",
+    "relevant_pages": [2, 4],
+    "relevant_keywords": ["retention", "118%", "ticket resolution", "40%", "AI automation"]
+  },
+  {
+    "id": 13,
+    "question": "What are the risks?",
+    "type": "AMBIGUOUS",
+    "ground_truth": "The core identified risks include foreign exchange volatility, persistent semiconductor supply bottlenecks, regulatory AI compliance shifts, and rising talent acquisition costs.",
+    "relevant_pages": [4],
+    "relevant_keywords": ["risks", "foreign exchange", "semiconductor", "regulatory", "compliance"]
+  },
+  {
+    "id": 14,
+    "question": "Why is this bad for the company?",
+    "type": "AMBIGUOUS",
+    "ground_truth": "Currency fluctuations and high interest rates increased debt servicing charges by $3.2 million, dampening net earnings in international divisions.",
+    "relevant_pages": [2, 4],
+    "relevant_keywords": ["currency", "debt servicing", "interest rates"]
+  },
+  {
+    "id": 15,
+    "question": "Tell me about results.",
+    "type": "AMBIGUOUS",
+    "ground_truth": "Fiscal 2024 results featured record $120M revenue, 22% operating margin, 118% net customer retention, and $35M in operating free cash flow.",
+    "relevant_pages": [1, 2],
+    "relevant_keywords": ["results", "120M", "revenue", "operating margin"]
+  },
+  {
+    "id": 16,
+    "question": "Explain the strategy.",
+    "type": "AMBIGUOUS",
+    "ground_truth": "The strategic roadmap centers on Enterprise AI expansion, transitioning 100% of legacy clients to recurring SaaS models, and targeted international expansion into the Asia-Pacific region.",
+    "relevant_pages": [3],
+    "relevant_keywords": ["Enterprise AI", "recurring SaaS", "Asia-Pacific"]
+  },
+  {
+    "id": 17,
+    "question": "What about the competitors?",
+    "type": "AMBIGUOUS",
+    "ground_truth": "Competitors have increased price discounting in the small-business segment, prompting the company to focus on high-margin enterprise accounts with custom SLA guarantees.",
+    "relevant_pages": [4],
+    "relevant_keywords": ["discounting", "enterprise accounts", "SLA", "competitors"]
+  },
+  {
+    "id": 18,
+    "question": "How did customer acquisition cost change across segments and what was the payback period?",
+    "type": "COMPLEX",
+    "ground_truth": "Enterprise CAC declined 12% to $14,000 with a payback period of 9 months, while SMB CAC rose 8% with a 14-month payback.",
+    "relevant_pages": [2, 3],
+    "relevant_keywords": ["CAC", "payback period", "Enterprise", "SMB"]
+  },
+  {
+    "id": 19,
+    "question": "What debt maturity obligations are due in 2025?",
+    "type": "SIMPLE",
+    "ground_truth": "The company has $15 million in senior secured revolving credit notes maturing in November 2025.",
+    "relevant_pages": [4],
+    "relevant_keywords": ["15 million", "senior secured", "maturing", "November 2025"]
+  },
+  {
+    "id": 20,
+    "question": "What is the dividend distribution payout policy?",
+    "type": "SIMPLE",
+    "ground_truth": "The Board declared a quarterly dividend of $0.15 per share, representing a 25% payout ratio of net income.",
+    "relevant_pages": [4],
+    "relevant_keywords": ["quarterly dividend", "0.15", "payout ratio", "25%"]
+  },
+  {
+    "id": 21,
+    "question": "What was the company's annual revenue in fiscal year 1995?",
+    "type": "NOT_PRESENT",
+    "ground_truth": "I don't have sufficient evidence in the uploaded documents to answer this question.",
+    "relevant_pages": [],
+    "relevant_keywords": []
+  },
+  {
+    "id": 22,
+    "question": "What is the CEO's favorite movie and personal hobbies?",
+    "type": "NOT_PRESENT",
+    "ground_truth": "I don't have sufficient evidence in the uploaded documents to answer this question.",
+    "relevant_pages": [],
+    "relevant_keywords": []
+  },
+  {
+    "id": 23,
+    "question": "Who is the primary retail supplier for the Tokyo storefront?",
+    "type": "NOT_PRESENT",
+    "ground_truth": "I don't have sufficient evidence in the uploaded documents to answer this question.",
+    "relevant_pages": [],
+    "relevant_keywords": []
+  },
+  {
+    "id": 24,
+    "question": "Did the company purchase any cryptocurrency assets in 2024?",
+    "type": "NOT_PRESENT",
+    "ground_truth": "I don't have sufficient evidence in the uploaded documents to answer this question.",
+    "relevant_pages": [],
+    "relevant_keywords": []
+  },
+  {
+    "id": 25,
+    "question": "What is the planned launch date for the quantum computing division?",
+    "type": "NOT_PRESENT",
+    "ground_truth": "I don't have sufficient evidence in the uploaded documents to answer this question.",
+    "relevant_pages": [],
+    "relevant_keywords": []
+  }
+]

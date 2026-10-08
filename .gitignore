@@ -1,0 +1,28 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and Environment Variables
+.env
+*.env.local
+
+# Vector Storage and Local DBs
+.qdrant_storage/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit Local Configs
+.streamlit/credentials.toml
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
